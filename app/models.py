@@ -6,4 +6,4 @@ class Todo(db.Model):
 	complete = db.Column(db.Boolean) 
 
 	def __repr__(self): 
-		return self.text
+		return self.text 
